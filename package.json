@@ -1,0 +1,21 @@
+{
+  "name": "cenix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"*.js\"",
+    "lint": "eslint ."
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.7.2"
+  },
+  "devDependencies": {
+    "prettier": "2.8.4",
+    "eslint": "^7.0.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
